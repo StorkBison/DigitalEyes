@@ -1,0 +1,71 @@
+
+
+.active {
+  color: #728E4A;
+}
+
+.invalid {
+  color: #CBB46B;
+}
+
+.rejected {
+  color: #8A483A;
+}
+
+.canceled {
+  color: grey;
+}
+
+.pagination {
+  color: #818181;
+  
+}
+
+.page-link {
+  border: 1px solid grey!important;
+  color: #818181!important;
+  padding: 6px 12px!important;
+  margin: 10px!important;
+  border-radius: 4px!important;
+  background-color: #171717!important;
+}
+
+.page-link:hover {
+  background-color: #111111!important;
+}
+
+label {
+  margin: auto;
+  width: 250px;
+}
+
+.disabled {
+  pointer-events: none;
+}
+table{
+  width: 100%;
+}
+table th{
+  color: #5183a9;
+}
+.paginationIcon{
+  display: flex;
+}
+.paginationIcon li{
+  margin-top: 18px;
+}
+.pagination-main{
+  justify-content: space-between;
+}
+.action-btn button:nth-child(2){
+  width: 77px;
+}
+.action-btn button:first-child(){
+  width: 109px;
+}
+.action-btn button:last-child(){
+  width: 145px;
+}
+.goToPage label{
+  margin: 0;
+}

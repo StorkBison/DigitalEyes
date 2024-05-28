@@ -1,0 +1,9 @@
+.mint-padding{
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .mint-padding{
+        margin-left: 0px;
+    }
+}

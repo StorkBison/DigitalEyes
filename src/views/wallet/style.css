@@ -1,0 +1,28 @@
+.wallet {
+    position:relative;
+    float: right;
+    border-width: 0 0 0 2px;
+    --angle: 0deg;
+    min-height: 80vh;
+    background-color: black;
+    text-align: left;
+    z-index: 0 !important;
+    border-color: rgb(44, 44, 44);
+}
+
+.collapsed-width {
+    width: calc(100vw - 100px);
+    margin-left: 100px;
+    border-color: rgb(44, 44, 44);
+}
+
+.normal-width {
+    width: calc(100vw - 22rem);
+    margin-left: 22rem
+}
+
+@keyframes shimmer {
+    50% {
+        background-position: 100% 50%;
+    }
+}
